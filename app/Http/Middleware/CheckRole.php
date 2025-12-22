@@ -27,7 +27,7 @@ class CheckRole
 
         // Check if user's role is in the allowed roles
         if (!in_array($userRole, $roles)) {
-            abort(403, 'Unauthorized access. You do not have permission to access this resource.');
+            abort(403, 'Unauthorized access. You do not have permission to access this resource ask SIR IKRAM for permission first.');
         }
 
         return $next($request);
