@@ -1,8 +1,8 @@
-# 🍰 Sweet Crust - Bakery Management System
+# Sweet Crust - Bakery Management System
 
 A comprehensive bakery management system built with Laravel 9, featuring dual authentication, product management, order tracking, and inventory management.
 
-## 📖 Documentation
+## Documentation
 
 For complete project documentation, including:
 - Database Schema (ERD with Mermaid code)
@@ -14,11 +14,11 @@ For complete project documentation, including:
 
 **Please refer to: [PROJECT_DOCUMENTATION.md](PROJECT_DOCUMENTATION.md)**
 
-## 🔐 Login Credentials
+## Login Credentials
 
 For test accounts and login credentials, see: [LOGIN_CREDENTIALS.md](LOGIN_CREDENTIALS.md)
 
-## 🚀 Quick Start
+## Quick Start
 
 1. **Install Dependencies**
 ```bash
@@ -50,18 +50,19 @@ php artisan serve
 - Staff Portal: http://localhost:8000/staff/login
 - Customer Portal: http://localhost:8000/customer/login
 
-## 📊 Key Features
+##  Key Features
 
-✅ Dual Authentication (Staff & Customer)  
-✅ Email Verification System  
-✅ Product Management with Image Upload  
-✅ Order Tracking & Management  
-✅ Inventory Management with Low Stock Alerts  
-✅ Role-Based Access Control  
-✅ Responsive Design  
-✅ jQuery DataTables Integration  
+Dual Authentication (Staff and Customer)
+Email Verification System
+Product Management with Image Upload
+Order Tracking and Management
+Inventory Management with Low Stock Alerts
+Role-Based Access Control
+Responsive Design
+jQuery DataTables Integration
+ 
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 sweet-crust/
@@ -73,7 +74,7 @@ sweet-crust/
 └── PROJECT_DOCUMENTATION.md  # Complete documentation
 ```
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 - **Framework**: Laravel 9
 - **Database**: MySQL
@@ -81,14 +82,12 @@ sweet-crust/
 - **Authentication**: Laravel Guards
 - **Email**: Gmail SMTP
 
-## 📞 Support
+## Support
 
-For detailed documentation, troubleshooting, and more information, see [PROJECT_DOCUMENTATION.md](PROJECT_DOCUMENTATION.md)
+For detailed documentation, troubleshooting, and more information, see [PROJECT_DOCUMENTATION.md](PROJECT_DOCUMENTATION.md) or contact Muhammad Ayan 
 
 ---
 
-**Version**: 1.0.0  
+ 
 **Last Updated**: 22 December 2025  
-**Status**: Production Ready
-# Sweet-Crust
 # Sweet-Crust
