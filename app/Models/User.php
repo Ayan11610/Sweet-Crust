@@ -29,15 +29,7 @@ class User extends Authenticatable
      */
     public function role()
     {
-        return $this->belongsTo(Role::class, 'roleId', 'id');
+        return $this->belongsTo(Role::class, 'roleId', 'id'); 
     }
 
-    /**
-     * Relationship: User has many Orders (1:M)
-     * Ek user (staff) bohot saray orders create kar sakta hai
-     */
-    public function orders()
-    {
-        return $this->hasMany(Order::class, 'createdBy', 'id');
-    }
 }

@@ -46,12 +46,4 @@ class Order extends Model
     {
         return $this->hasMany(OrderItem::class, 'orderId', 'id');
     }
-
-    /**
-     * Relationship: Order has many IngredientUsages (1:M)
-     */
-    public function ingredientUsages()
-    {
-        return $this->hasMany(IngredientUsage::class, 'orderId', 'id');
-    }
 }

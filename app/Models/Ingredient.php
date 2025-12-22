@@ -24,15 +24,6 @@ class Ingredient extends Model
     ];
 
     /**
-     * Relationship: Ingredient has many IngredientUsage records (1:M)
-     * Ek ingredient bohot saray usage records mein ho sakta hai
-     */
-    public function usageRecords()
-    {
-        return $this->hasMany(IngredientUsage::class, 'ingredient_id', 'id');
-    }
-
-    /**
      * Scope: Get low stock ingredients
      * Low stock ingredients retrieve karna (quantity <= reorder level)
      */

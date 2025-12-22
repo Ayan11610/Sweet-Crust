@@ -22,8 +22,8 @@ class Authenticate extends Middleware
             if ($request->is('staff/*')) {
                 return route('staff.login.show');
             }
-            // Default to customer login
-            return route('customer.login.show');
+            // Default to staff login
+            return route('staff.login.show');
         }
     }
 }

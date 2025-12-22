@@ -58,7 +58,7 @@
             <h3 style="color:#d4a574;margin-bottom:20px;">Get In Touch</h3>
             <p style="color:#666;margin-bottom:10px;"><i class="fas fa-phone"></i> +92 300 1234567</p>
             <p style="color:#666;margin-bottom:10px;"><i class="fas fa-envelope"></i> info@sweetcrust.com</p>
-            <p style="color:#666;"><i class="fas fa-map-marker-alt"></i> Karachi, Pakistan</p>
+            <p style="color:#666;"><i class="fas fa-map-marker-alt"></i> Wah Cantt, Pakistan</p>
         </div>
     </div>
 </body>
